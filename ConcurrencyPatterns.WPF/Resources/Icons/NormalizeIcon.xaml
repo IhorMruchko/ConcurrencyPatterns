@@ -1,0 +1,24 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <DrawingImage x:Key="NormalizeIcon">
+        <DrawingImage.Drawing>
+            <DrawingGroup ClipGeometry="M0,0 V24 H24 V0 H0 Z">
+                <GeometryDrawing Geometry="F1 M24,24z M0,0z M20,4L14,10 M14,10L17.75,10 M14,10L14,6.25">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="{DynamicResource MenuButton.Static.Foreground}" Thickness="1.5" StartLineCap="Round" EndLineCap="Round" LineJoin="Round" MiterLimit="1" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M24,24z M0,0z M4,20L10,14 M10,14L6.25,14 M10,14L10,17.75">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="{DynamicResource MenuButton.Static.Foreground}" Thickness="1.5" StartLineCap="Round" EndLineCap="Round" LineJoin="Round" MiterLimit="1" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M24,24z M0,0z M22,12C22,16.714 22,19.0711 20.5355,20.5355 19.0711,22 16.714,22 12,22 7.28595,22 4.92893,22 3.46447,20.5355 2,19.0711 2,16.714 2,12 2,7.28595 2,4.92893 3.46447,3.46447 4.92893,2 7.28595,2 12,2 16.714,2 19.0711,2 20.5355,3.46447 21.5093,4.43821 21.8356,5.80655 21.9449,8">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="{DynamicResource MenuButton.Static.Foreground}" Thickness="1.5" StartLineCap="Round" EndLineCap="Round" LineJoin="Miter" MiterLimit="1" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+            </DrawingGroup>
+        </DrawingImage.Drawing>
+    </DrawingImage>
+</ResourceDictionary>

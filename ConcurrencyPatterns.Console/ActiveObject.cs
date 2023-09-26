@@ -7,7 +7,7 @@ public class ActiveObject
 {
     private int _value;
 
-    private readonly BlockingCollection<Thread> _proxy = new();
+    private readonly BlockingCollection<Task> _proxy = new();
 
     public override string ToString()
        => $"{Environment.CurrentManagedThreadId} has value: {_value}";
@@ -30,13 +30,13 @@ public class ActiveObject
         }
     }
 
-    public void Increase() => _proxy.Add(new Thread(() =>
+    public void Increase() => _proxy.Add(new Task(() =>
     {
         ++_value;
         System.Console.WriteLine($"Increase: {this}");
     }));
 
-    public void Decrease() => _proxy.Add(new Thread(() =>
+    public void Decrease() => _proxy.Add(new Task(() =>
     {
         --_value;
         System.Console.WriteLine($"Decrease: {this}");

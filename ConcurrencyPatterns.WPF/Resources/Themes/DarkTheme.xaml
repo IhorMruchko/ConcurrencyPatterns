@@ -1,0 +1,29 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+	<SolidColorBrush x:Key="MenuButton.Static.Background" Color="#FF340080"/>
+	<SolidColorBrush x:Key="MenuButton.Static.Border" Color="#FF000000"/>
+	<SolidColorBrush x:Key="MenuButton.MouseOver.Background" Color="#FF5D1D97"/>
+	<SolidColorBrush x:Key="MenuButton.MouseOver.Border" Color="#FF2C2C2C"/>
+	<SolidColorBrush x:Key="MenuButton.Pressed.Background" Color="#FF2C0D48"/>
+	<SolidColorBrush x:Key="MenuButton.Pressed.Border" Color="#FF000000"/>
+	<SolidColorBrush x:Key="MenuButton.Disabled.Background" Color="#FF292929"/>
+	<SolidColorBrush x:Key="MenuButton.Disabled.Border" Color="#FF800080"/>
+	<SolidColorBrush x:Key="MenuButton.Disabled.Foreground" Color="#FF838383"/>
+	<SolidColorBrush x:Key="MenuButton.Static.Foreground" Color="#FFFFFFFF"/>
+    <SolidColorBrush x:Key="ListBox.Static.Background" Color="Transparent"/>
+    <SolidColorBrush x:Key="ListBox.Static.Foreground" Color="White"/>
+    <SolidColorBrush x:Key="ListBox.Static.Border" Color="Transparent"/>
+    <SolidColorBrush x:Key="ListBox.Disabled.Background" Color="#FF838383"/>
+    <SolidColorBrush x:Key="ListBox.Disabled.Border" Color="#FF800080"/>
+    <SolidColorBrush x:Key="TextBox.Static.Border" Color="#FFBF92FF"/>
+    <SolidColorBrush x:Key="TextBox.MouseOver.Border" Color="#FFAC9DFF"/>
+    <SolidColorBrush x:Key="TextBox.Focus.Border" Color="#FFA256E5"/>
+    <SolidColorBrush x:Key="TextBox.Static.Background" Color="Transparent"/>
+    <SolidColorBrush x:Key="TextBox.Static.Foreground" Color="White"/>
+    <SolidColorBrush x:Key="Item.MouseOver.Background" Color="Transparent"/>
+    <SolidColorBrush x:Key="Item.MouseOver.Border" Color="Transparent"/>
+    <SolidColorBrush x:Key="Item.SelectedActive.Background" Color="Transparent"/>
+    <SolidColorBrush x:Key="Item.SelectedActive.Border" Color="Transparent"/>
+    <SolidColorBrush x:Key="Item.SelectedInactive.Background" Color="Transparent"/>
+    <SolidColorBrush x:Key="Item.SelectedInactive.Border" Color="Transparent"/>
+
+</ResourceDictionary>

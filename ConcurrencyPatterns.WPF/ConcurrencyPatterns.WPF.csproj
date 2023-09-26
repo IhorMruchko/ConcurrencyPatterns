@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>Resources\Icons\needle.ico</ApplicationIcon>
+	<PublishSingleFile>true</PublishSingleFile>
+	<Title>Conccurency Patterns</Title>
+    <Authors>Ihor Mruchko</Authors>
+	<IncludeAllContentForSelfExtract>true</IncludeAllContentForSelfExtract>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="Resources\Icons\needle.ico" />
+  </ItemGroup>
+
+  
+  <ItemGroup>
+    <PackageReference Include="Common.WPF" Version="0.0.3" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,11 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="Icons/ExitIcon.xaml"/>
+        <ResourceDictionary Source="Icons/MaximizeIcon.xaml"/>
+        <ResourceDictionary Source="Icons/NormalizeIcon.xaml"/>
+        <ResourceDictionary Source="Icons/MinimizeIcon.xaml"/>
+        <ResourceDictionary Source="Icons/ExampleIcons.xaml"/>
+        <ResourceDictionary Source="Icons/BarrierIcon.xaml"/>
+    </ResourceDictionary.MergedDictionaries>    
+</ResourceDictionary>

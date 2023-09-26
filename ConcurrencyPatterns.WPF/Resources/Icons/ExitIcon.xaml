@@ -1,0 +1,27 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <DrawingImage x:Key="ExitIcon">
+        <DrawingImage.Drawing>
+            <DrawingGroup ClipGeometry="M0,0 V64 H64 V0 H0 Z">
+                <DrawingGroup.Transform>
+                    <TranslateTransform X="5" Y="0" />
+                </DrawingGroup.Transform>
+                <DrawingGroup Opacity="1" Transform="0.1,0,0,-0.1,0,64">
+                    <GeometryDrawing Brush="{DynamicResource MenuButton.Static.Foreground}" Geometry="F1 M64,64z M0,0z M155,482L315,320 255,258C50,42,32,22,170,157L325,309 485,158 645,7 490,163 335,320 400,387C606,602,628,628,485,488L325,331 160,487 -5,644 155,482z" />
+                </DrawingGroup>
+            </DrawingGroup>
+        </DrawingImage.Drawing>
+    </DrawingImage>
+
+    <DrawingImage x:Key="DoorExitIcon">
+        <DrawingImage.Drawing>
+            <DrawingGroup ClipGeometry="M0,0 V70 H70 V0 H0 Z">
+                <DrawingGroup Opacity="1">
+                    <GeometryDrawing Brush="{DynamicResource MenuButton.Static.Foreground}" Geometry="F1 M70,70z M0,0z M62.666,32.316L57.758,21.53C57.301,20.523 56.112,20.081 55.11,20.538 54.104,20.995 53.66,22.182 54.118,23.186L57.483,30.583 44.481,30.583C43.377,30.583 42.481,31.479 42.481,32.583 42.481,33.687 43.377,34.583 44.481,34.583L58.171,34.583 54.116,43.495C53.658,44.499 54.102,45.686 55.108,46.143 55.377,46.264 55.658,46.323 55.935,46.323 56.695,46.323 57.421,45.887 57.756,45.151L62.695,34.296C62.799,34.1 62.867,33.889 62.901,33.671 62.988,33.207 62.901,32.726 62.666,32.316z" />
+                    <GeometryDrawing Brush="{DynamicResource MenuButton.Static.Foreground}" Geometry="F1 M70,70z M0,0z M51.583,47.577C50.479,47.577,49.583,48.472,49.583,49.577L49.583,57.583 38.583,57.583 38.583,15.269C38.583,13.547,37.773,12.019,36.138,11.474L24.536,7.583 49.583,7.583 49.583,17.577C49.583,18.681 50.479,19.577 51.583,19.577 52.687,19.577 53.583,18.681 53.583,17.577L53.583,5.577C53.583,4.473,53.586,3.583,52.481,3.583L12.609,3.583 12.284,3.474C11.871,3.336 11.59,3.269 11.165,3.269 10.336,3.269 9.225,3.527 8.535,4.024 7.492,4.776 6.583,5.983 6.583,7.269L6.583,54.841C6.583,56.562,7.976,58.091,9.609,58.636L33.755,66.636C34.168,66.773 34.668,66.841 35.092,66.841 35.922,66.841 36.487,66.583 37.176,66.085 38.219,65.333 38.583,64.126 38.583,62.841L38.583,61.583 52.481,61.583C53.585,61.583,53.583,60.681,53.583,59.577L53.583,49.577C53.583,48.472,52.688,47.577,51.583,47.577z M34.583,62.841L10.583,54.841 10.583,7.583 10.583,7.504 10.8,7.345 34.583,15.269 34.583,62.841z" />
+                    <GeometryDrawing Brush="{DynamicResource MenuButton.Static.Foreground}" Geometry="F1 M70,70z M0,0z M30.583,47.577C31.136,47.577,31.583,47.13,31.583,46.577L31.583,40.577C31.583,40.024 31.136,39.577 30.583,39.577 30.03,39.577 29.583,40.024 29.583,40.577L29.583,46.577C29.583,47.13,30.03,47.577,30.583,47.577z" />
+                </DrawingGroup>
+            </DrawingGroup>
+        </DrawingImage.Drawing>
+    </DrawingImage>
+</ResourceDictionary>

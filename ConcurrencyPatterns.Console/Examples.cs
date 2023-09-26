@@ -38,6 +38,7 @@ public static class Examples
         {
             System.Console.WriteLine($"Current Start: {activeObject}");
             activeObject.Increase();
+            Thread.Sleep(TimeSpan.FromSeconds(0.1));
             System.Console.WriteLine($"Current Increase: {activeObject}");
             activeObject.Decrease();
             System.Console.WriteLine($"Current Decrease: {activeObject}");
